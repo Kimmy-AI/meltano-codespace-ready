@@ -30,7 +30,7 @@ elif [ "$argument" = "clear" ]; then
     rm output/my.duckdb
 elif [ "$argument" = "select_db" ]; then
     echo "=== Running select DB ==="
-    python codespaces_tutorial/select_duckdb.py
+    /opt/homebrew/Caskroom/miniconda/base/bin/python3 codespaces_tutorial/select_duckdb.py
 else 
     echo "provide one of init|select_db"
 fi
